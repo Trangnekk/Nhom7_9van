@@ -1,0 +1,174 @@
+@media only screen and (min-width: 576px) {
+  .header {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+  }
+
+  #sidebar{
+    display: none;
+  }
+
+  .header .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header .center input {
+    height: 37.6px;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .header .center .btn {
+    margin-left: 5px;
+    background-color: #0f172a;
+    border-radius: 6px;
+    color: white;
+  }
+
+  .header .right .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .header .right .subnav {
+    position: relative;
+  }
+
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    width: 150px;
+    z-index: 1;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 12px 0px rgba(38, 103, 240, 0.2);
+  }
+
+  .subnav-content a {
+    text-decoration-line: none;
+  }
+
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+  .tab {
+    margin-top: 5px;
+    height: 80px;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--slate-500, #64748b);
+    background: var(--white, #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .tablinks {
+    padding: 10px 20px;
+    width: 200px;
+    border: none;
+    background-color: transparent;
+  }
+
+  .tablinks:hover {
+    background-color: #d2e6ec;
+    border-radius: 4px;
+  }
+
+  .active {
+    background-color: #acdeee;
+    border-radius: 4px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #baitap > .card > .card-body > .card {
+    margin: 10px;
+  }
+
+  .card-body img {
+    margin-right: 10px;
+  }
+
+  .tabcontent .classes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 500px;
+  }
+
+  .tabcontent .classes .card {
+    height: 150px;
+    margin: 10px;
+  }
+
+  .tabcontent .pagination {
+    position: absolute;
+    bottom: 0;
+    left: 46%;
+  }
+
+  .tabcontent .pagination .page-item {
+    --bs-pagination-border-radius: 100px;
+    margin: 0 10px;
+  }
+
+  #baitap .card > .card-body {
+    height: 450px;
+  }
+
+  #baitap .card > .card-body > .card {
+    --bs-card-height: 160px;
+  }
+  #luyentap table {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #luyentap table,
+  tr,
+  th,
+  td {
+    border: 1px solid #64748b !important;
+    padding: 10px;
+  }
+
+  #luyentap th {
+    color: #64748b;
+  }
+
+  #luyentap tr td .btn {
+    margin-left: 5px;
+    background-color: #0f172a;
+    border-radius: 6px;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .header{
+    display: none !important;
+  }
+
+  .section .tab{
+    display: none;
+  }
+  nav{
+    display: none;
+  }
+
+}

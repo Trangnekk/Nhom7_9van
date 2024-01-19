@@ -1,0 +1,49 @@
+.section{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section .card {
+    width: 45%;
+    height: 85vh;
+}
+
+.section .card .card-body img{
+    width: 100px;
+    height: 100px;
+}
+
+.section .card .card-body .input label{
+   color: #0F172A;
+   font-size: large; 
+}
+
+.section .card .card-body .input input,select{
+    width: 500px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.section .card .card-action{
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+.section .card .btn{
+    margin-left: 5px;
+    background-color: #0f172a;
+    border-radius: 6px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.section .card .card-action .btn a{
+    text-decoration-line: none;
+    color: white;
+}

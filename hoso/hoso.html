@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../trangchu/trangchu.css" />
+    <link rel="stylesheet" href="./hoso.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row header left">
+        <div class="col-lg-4">
+          <img src="../assets/logo.png" />
+        </div>
+        <div class="col-lg-4 center">
+          <input type="text" placeholder="Mã lớp học" />
+          <button type="button" class="btn">Tham gia</button>
+        </div>
+        <div class="col-lg-4 right">
+          <div class="content">
+            <div>
+              <img src="../assets/notification.png" />
+            </div>
+            <div class="subnav">
+              <button type="button" class="btn">
+                Minh Nguyen
+                <img src="../assets/arrowndown.png" />
+              </button>
+              <div class="subnav-content">
+                <a href="#">Thông tin cá nhân</a>
+                <a href="../index.html"><span style="color: red;">Đăng xuất</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <img src="../assets/avt.png" class="avt"/>
+                </div>
+                <div class="info">
+                    <div class="input">
+                        <label>Tên người dùng</label><br/>
+                        <input type="text" name="name" value="Minh Nguyen"/>
+                    </div>
+                    <div class="input">
+                        <label>Email</label><br/>
+                        <input type="text" name="name" value="Minh Nguyen"/>
+                    </div>
+                    <div class="input">
+                        <label>Email phụ huynh</label><br/>
+                        <input type="text" name="name" value="Minh Nguyen"/>
+                    </div>
+                    <div class="input">
+                        <label>Số điện thoại</label><br/>
+                        <input type="text" name="name" value="Minh Nguyen"/>
+                    </div>
+                    <div class="input">
+                        <label>Vai trò</label><br/>
+                        <select>
+                            <option selected>Học sinh</option>
+                            <option> Giáo viên</option>
+                            <option>Phu huynh</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="card-action">
+                <button class="btn" type="button">Lưu thay đổi</button>
+                <button class="btn" type="button"><a href="../index.html">Đăng xuất</a></button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="info">
+                    <div class="input">
+                        <label>Số tài khoản</label><br/>
+                        <input type="text" name="name" value="0123234234523xxx"/>
+                    </div>
+                    <div class="input">
+                        <label>Số dư tài khoản</label><br/>
+                        <input type="text" name="name" value="50.000đ" disabled/>
+                    </div>
+                    <div>
+                        <button class="btn" type="button">Nạp thêm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
