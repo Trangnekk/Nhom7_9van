@@ -1,0 +1,14 @@
+{
+  "name": "nhom7_9van",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "gh-pages -d src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://Trangnekk.github.io/Nhom7_9van"
+}

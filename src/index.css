@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.left {
+  background: url("./assets/background.png") no-repeat;
+  background-size: cover;
+  height: 97.9vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left #center {
+  width: 770px;
+  height: 375px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(25.296300888061523px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left h3 {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.144px;
+  color: #1e293b;
+  margin-top: 30px;
+}
+
+.left p {
+  width: 617.554px;
+  color: #001949;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 16px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.right h2 {
+  width: 314px;
+  color: var(--slate-500, var(--Colors-Slate-500, #64748b));
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 120% */
+  letter-spacing: -0.225px;
+}
+
+.right .btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.right .btn {
+  width: 250px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.right .btn:hover {
+  background-color: #d2e6ec;
+}
+
+.right .btn a {
+  text-decoration-line: none;
+}
+
+.right .btn img {
+  margin-right: 5px;
+}
+
+.right span {
+  color: #0f172a;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  text-decoration: underline;
+  line-height: 28px;
+  word-wrap: break-word;
+  text-align: center;
+  width: 201.3px;
+}
+
+.right .chinhsach {
+  width: 201.3px;
+  position: absolute;
+  bottom: 10px;
+  right: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
